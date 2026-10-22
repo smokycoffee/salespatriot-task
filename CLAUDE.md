@@ -1,6 +1,9 @@
 # SalesPatriot
 
-Early-stage project: no app code yet. Update this file once a stack, build and test commands exist.
+DIBBS Solicitation Browser. TypeScript on Node 24 (native `.ts`, no build), SQLite via `node:sqlite`, no dependencies.
+
+- `npm run scrape -- [days]`: pull the newest N DIBBS issue dates into `data/dibbs.db`.
+- `npm test`: parser tests (`node --test`).
 
 ## Docs
 
