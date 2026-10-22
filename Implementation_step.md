@@ -125,9 +125,9 @@ Re-running a day upserts: it refreshes status, return-by date, quantity, set-asi
 - **Throughput:** about 4 s per 50-row page per session, so roughly 36 rows/s at 3 sessions. That's about 60k lines in 30 minutes.
 - **Volume:** weekdays are about 900–1,700 lines; Saturdays are under 30.
 
-### 5. UI handoff
+### 5. Built the UI
 
-`UI_PROMPT.md` is a ready-to-paste prompt for the UI:
+`UI_PROMPT.md` was the prompt for the UI build. The result is a Next.js 16 app in `web/` that reads `data/dibbs.db` read-only. The README has a screenshot. The prompt asked for:
 - A landing page with summary tiles, plus a searchable table.
 - Filters: status, return-by window, FSC, set-aside, fast award, tech docs / Mil-Spec, quantity and issued date.
 - A JSON API with filtering in SQL.
@@ -143,7 +143,9 @@ Re-running a day upserts: it refreshes status, return-by date, quantity, set-asi
 ## Known limits
 
 - **Layout-dependent:** a DIBBS layout change breaks the parser. The fixture test only guards our own code against regressions. Noticing a DIBBS-side change needs a live check.
-- **No type check:** `typescript` isn't installed yet, because adding dependencies needs approval.
+- **No type check for the scraper:** the root has no `tsc`. `web/` has TypeScript through Next.js.
+- **Fast award never overlaps a set-aside:** all 8,473 fast-award lines are unrestricted, so combining the two filters returns 0.
+- **EDWOSB mis-mapped:** the single "Economically Disadvantaged Women Owned Small Business" line is grouped under Unrestricted in the UI.
 - **SQLite warning:** `node:sqlite` prints an ExperimentalWarning.
 - **Status goes stale:** an RFQ's status only updates when its issue date is re-scraped.
 - **Unknown history depth:** dates older than the 28 listed respond (Sep 15 returned rows), but where history ends is unknown.

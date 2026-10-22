@@ -18,3 +18,6 @@
 - Decision: FSC codes show their Federal Supply Group name; full FSC names are a next step.
 - Decision: no indexes added (schema unchanged); full scans answer in 20–50 ms on 26k rows.
 - Design: data-plate visual world via Impeccable (`PRODUCT.md`, `.impeccable/`); signal colour reserved for deadlines ≤ 2 days.
+- Found while verifying the filters: every fast-award line is unrestricted, so "Fast award" plus a set-aside returns 0. Also, the single "Economically Disadvantaged Women Owned Small Business" line maps to Unrestricted. Both are documented as known limits and not changed yet.
+- Removed the unused `--signal-wash` CSS variable.
+- Docs pass before pushing to GitHub: the README gained a screenshot (`docs/screenshot.png`, headless Chrome at 1440×1000), "Getting the data", "Key decisions" and "Known limits" sections, and links to the data structure and production roadmap. `project-status.md` was cleaned up, and `Implementation_step.md` updated for the finished UI.

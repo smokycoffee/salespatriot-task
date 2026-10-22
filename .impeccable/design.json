@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T13:54:42+00:00",
+  "title": "Design System: SalesPatriot DIBBS Solicitation Browser",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Satin Aluminium",
+        "canonical": "oklch(0.928 0.006 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 240)",
+          "oklch(0.26 0.006 240)",
+          "oklch(0.37 0.006 240)",
+          "oklch(0.48 0.006 240)",
+          "oklch(0.59 0.006 240)",
+          "oklch(0.70 0.006 240)",
+          "oklch(0.82 0.006 240)",
+          "oklch(0.95 0.006 240)"
+        ]
+      },
+      "plate": {
+        "role": "neutral",
+        "displayName": "Plate Face",
+        "canonical": "oklch(0.968 0.004 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 240)",
+          "oklch(0.26 0.004 240)",
+          "oklch(0.37 0.004 240)",
+          "oklch(0.48 0.004 240)",
+          "oklch(0.59 0.004 240)",
+          "oklch(0.70 0.004 240)",
+          "oklch(0.82 0.004 240)",
+          "oklch(0.95 0.004 240)"
+        ]
+      },
+      "plate-sunk": {
+        "role": "neutral",
+        "displayName": "Sunk Plate",
+        "canonical": "oklch(0.948 0.005 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.005 240)",
+          "oklch(0.26 0.005 240)",
+          "oklch(0.37 0.005 240)",
+          "oklch(0.48 0.005 240)",
+          "oklch(0.59 0.005 240)",
+          "oklch(0.70 0.005 240)",
+          "oklch(0.82 0.005 240)",
+          "oklch(0.95 0.005 240)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "oklch(0.83 0.008 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.008 240)",
+          "oklch(0.26 0.008 240)",
+          "oklch(0.37 0.008 240)",
+          "oklch(0.48 0.008 240)",
+          "oklch(0.59 0.008 240)",
+          "oklch(0.70 0.008 240)",
+          "oklch(0.82 0.008 240)",
+          "oklch(0.95 0.008 240)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Engraved Edge",
+        "canonical": "oklch(0.68 0.01 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.01 240)",
+          "oklch(0.26 0.01 240)",
+          "oklch(0.37 0.01 240)",
+          "oklch(0.48 0.01 240)",
+          "oklch(0.59 0.01 240)",
+          "oklch(0.70 0.01 240)",
+          "oklch(0.82 0.01 240)",
+          "oklch(0.95 0.01 240)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Etched Ink",
+        "canonical": "oklch(0.23 0.014 250)",
+        "tonalRamp": [
+          "oklch(0.15 0.014 250)",
+          "oklch(0.26 0.014 250)",
+          "oklch(0.37 0.014 250)",
+          "oklch(0.48 0.014 250)",
+          "oklch(0.59 0.014 250)",
+          "oklch(0.70 0.014 250)",
+          "oklch(0.82 0.014 250)",
+          "oklch(0.95 0.014 250)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "oklch(0.40 0.013 250)",
+        "tonalRamp": [
+          "oklch(0.15 0.013 250)",
+          "oklch(0.26 0.013 250)",
+          "oklch(0.37 0.013 250)",
+          "oklch(0.48 0.013 250)",
+          "oklch(0.59 0.013 250)",
+          "oklch(0.70 0.013 250)",
+          "oklch(0.82 0.013 250)",
+          "oklch(0.95 0.013 250)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "oklch(0.49 0.012 250)",
+        "tonalRamp": [
+          "oklch(0.15 0.012 250)",
+          "oklch(0.26 0.012 250)",
+          "oklch(0.37 0.012 250)",
+          "oklch(0.48 0.012 250)",
+          "oklch(0.59 0.012 250)",
+          "oklch(0.70 0.012 250)",
+          "oklch(0.82 0.012 250)",
+          "oklch(0.95 0.012 250)"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "Aluminium Text",
+        "canonical": "oklch(0.96 0.004 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 240)",
+          "oklch(0.26 0.004 240)",
+          "oklch(0.37 0.004 240)",
+          "oklch(0.48 0.004 240)",
+          "oklch(0.59 0.004 240)",
+          "oklch(0.70 0.004 240)",
+          "oklch(0.82 0.004 240)",
+          "oklch(0.95 0.004 240)"
+        ]
+      },
+      "signal": {
+        "role": "primary",
+        "displayName": "Safety Signal",
+        "canonical": "oklch(0.62 0.205 33)",
+        "tonalRamp": [
+          "oklch(0.15 0.205 33)",
+          "oklch(0.26 0.205 33)",
+          "oklch(0.37 0.205 33)",
+          "oklch(0.48 0.205 33)",
+          "oklch(0.59 0.205 33)",
+          "oklch(0.70 0.205 33)",
+          "oklch(0.82 0.205 33)",
+          "oklch(0.95 0.205 33)"
+        ]
+      },
+      "signal-ink": {
+        "role": "primary",
+        "displayName": "Signal Ink",
+        "canonical": "oklch(0.51 0.19 30)",
+        "tonalRamp": [
+          "oklch(0.15 0.19 30)",
+          "oklch(0.26 0.19 30)",
+          "oklch(0.37 0.19 30)",
+          "oklch(0.48 0.19 30)",
+          "oklch(0.59 0.19 30)",
+          "oklch(0.70 0.19 30)",
+          "oklch(0.82 0.19 30)",
+          "oklch(0.95 0.19 30)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Blue",
+        "canonical": "oklch(0.45 0.16 250)",
+        "tonalRamp": [
+          "oklch(0.15 0.16 250)",
+          "oklch(0.26 0.16 250)",
+          "oklch(0.37 0.16 250)",
+          "oklch(0.48 0.16 250)",
+          "oklch(0.59 0.16 250)",
+          "oklch(0.70 0.16 250)",
+          "oklch(0.82 0.16 250)",
+          "oklch(0.95 0.16 250)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Summary-plate counts only; 30px under 860px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Masthead title; 19px under 860px."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "State notice headings; filter sheet heading at 18px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base reading text; notice copy capped at 60ch."
+      },
+      "body-dense": {
+        "displayName": "Body Dense",
+        "purpose": "Table cells, filter options, result line."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Buttons, segments, stamps."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase field labels above values, table headers."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "NSN, solicitation, FSC codes, key hints."
+      }
+    },
+    "shadows": [
+      {
+        "name": "etch",
+        "value": "inset 0 1px 0 oklch(1 0 0 / 0.7), 0 1px 0 oklch(0.5 0.01 240 / 0.12), 0 1px 3px oklch(0.3 0.01 240 / 0.06)",
+        "purpose": "Engraved plate edge on plates, buttons, search, table and mobile row plates."
+      },
+      {
+        "name": "sheet-float",
+        "value": "-8px 0 32px oklch(0.2 0.01 250 / 0.18)",
+        "purpose": "Filter side sheet; from below (0 -8px 32px) under 860px. The only floating element."
+      },
+      {
+        "name": "sheet-backdrop",
+        "value": "oklch(0.2 0.01 250 / 0.35)",
+        "purpose": "Backdrop behind the open filter sheet."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing for all state transitions."
+      },
+      {
+        "name": "row-hover",
+        "value": "120ms",
+        "purpose": "Table row hover wash."
+      },
+      {
+        "name": "control",
+        "value": "160ms",
+        "purpose": "Button, segment, FSC row fill changes."
+      },
+      {
+        "name": "field",
+        "value": "180ms",
+        "purpose": "Summary field inversion and switch thumb."
+      },
+      {
+        "name": "stale",
+        "value": "200ms",
+        "purpose": "Table fade to 60% while a new result set loads."
+      },
+      {
+        "name": "sheet",
+        "value": "260ms",
+        "purpose": "Filter sheet slide in/out."
+      },
+      {
+        "name": "gauge",
+        "value": "300ms",
+        "purpose": "Deadline gauge length change."
+      },
+      {
+        "name": "shimmer",
+        "value": "1.4s linear infinite",
+        "purpose": "Skeleton loading; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-fold",
+        "value": "1520px"
+      },
+      {
+        "name": "rail-narrow",
+        "value": "1400px"
+      },
+      {
+        "name": "sheet",
+        "value": "1180px"
+      },
+      {
+        "name": "narrow",
+        "value": "860px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Plate-faced key for actions such as Filters and paging.",
+      "html": "<button class=\"ds-btn\">Next page</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; background: var(--plate); color: var(--ink); border: 1px solid var(--rule-strong); border-radius: 3px; box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.7), 0 1px 0 oklch(0.5 0.01 240 / 0.12), 0 1px 3px oklch(0.3 0.01 240 / 0.06); font: 600 14px/1.2 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: 0.02em; cursor: pointer; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-btn:hover { background: var(--plate-sunk); border-color: var(--ink-3); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Underlined text action, e.g. Clear all.",
+      "html": "<button class=\"ds-btn-quiet\">Clear all</button>",
+      "css": ".ds-btn-quiet { background: none; border: 0; padding: 4px 0; color: var(--ink-2); font: 600 13px/1.2 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: 0.02em; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--rule-strong); cursor: pointer; } .ds-btn-quiet:hover { color: var(--ink); text-decoration-color: currentColor; } .ds-btn-quiet:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Search",
+      "kind": "input",
+      "refersTo": "search",
+      "description": "Full-width search plate over the results.",
+      "html": "<label class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.5\"/><path d=\"M10.5 10.5L14 14\"/></svg><input type=\"search\" placeholder=\"NSN, solicitation or item\"><kbd>/</kbd></label>",
+      "css": ".ds-search { display: flex; align-items: center; gap: 10px; padding: 0 12px; background: var(--plate); border: 1px solid var(--rule-strong); border-radius: 3px; box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.7), 0 1px 0 oklch(0.5 0.01 240 / 0.12), 0 1px 3px oklch(0.3 0.01 240 / 0.06); color: var(--ink-3); } .ds-search:focus-within { outline: 2px solid var(--focus); outline-offset: -1px; border-color: transparent; } .ds-search input { flex: 1; min-width: 0; border: 0; background: none; padding: 11px 0; font: 400 16px var(--font-ui, Barlow, sans-serif); color: var(--ink); outline: none; } .ds-search input::placeholder { color: var(--ink-3); } .ds-search kbd { font: 500 12px/1 var(--font-mono, \"Geist Mono\", monospace); padding: 3px 6px; border: 1px solid var(--rule-strong); border-radius: 2px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segmented-selected",
+      "description": "Exclusive choice; the checked cell inverts to ink.",
+      "html": "<div class=\"ds-seg\"><label><input type=\"radio\" name=\"ds-seg\"><span>48 h</span></label><label><input type=\"radio\" name=\"ds-seg\"><span>7 d</span></label><label><input type=\"radio\" name=\"ds-seg\" checked><span>Any</span></label></div>",
+      "css": ".ds-seg { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; border: 1px solid var(--rule-strong); border-radius: 3px; overflow: hidden; background: var(--plate); width: 220px; } .ds-seg label { position: relative; } .ds-seg label + label { border-left: 1px solid var(--rule); } .ds-seg input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; } .ds-seg span { display: block; text-align: center; padding: 6px 4px; font: 600 13px/1.2 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: 0.02em; color: var(--ink); transition: background-color 160ms, color 160ms; } .ds-seg label:hover span { background: var(--plate-sunk); } .ds-seg input:checked + span { background: var(--ink); color: var(--on-ink); } .ds-seg input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: -3px; }"
+    },
+    {
+      "name": "Filter Stamp",
+      "kind": "chip",
+      "refersTo": "stamp",
+      "description": "Active filter, removable on click.",
+      "html": "<button class=\"ds-stamp\">FSC 4820 <svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M4 4l8 8M12 4l-8 8\"/></svg></button>",
+      "css": ".ds-stamp { display: inline-flex; align-items: center; gap: 6px; padding: 4px 6px 4px 9px; background: var(--ink); color: var(--on-ink); border: 0; border-radius: 2px; font: 600 12.5px/1.2 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: 0.03em; cursor: pointer; } .ds-stamp svg { opacity: 0.7; } .ds-stamp:hover svg { opacity: 1; } .ds-stamp:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Set-aside and Fast-award markers in rows.",
+      "html": "<span class=\"ds-tag\">Small business</span> <span class=\"ds-tag ds-tag-fast\">Fast</span>",
+      "css": ".ds-tag { display: inline-block; padding: 2px 6px; border: 1px solid var(--ink-2); border-radius: 2px; color: var(--ink); font: 600 11.5px/1.3 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; } .ds-tag-fast { border-style: dashed; }"
+    },
+    {
+      "name": "Summary Field",
+      "kind": "card",
+      "refersTo": "field",
+      "description": "Etched plate field: label, display count, note; pressing filters and inverts.",
+      "html": "<div class=\"ds-plate\"><button class=\"ds-field\" aria-pressed=\"true\"><span class=\"ds-label\">Open RFQs</span><span class=\"ds-value\">13,581</span><span class=\"ds-note\">Quotable, not past return-by</span></button><button class=\"ds-field ds-urgent\" aria-pressed=\"false\"><span class=\"ds-label\">Closing in 48 h</span><span class=\"ds-value\">5,984</span><span class=\"ds-note\">Due by Oct 24</span></button></div>",
+      "css": ".ds-plate { display: grid; grid-template-columns: 1fr 1fr; background: var(--plate); border: 1px solid var(--rule-strong); border-radius: 3px; box-shadow: inset 0 1px 0 oklch(1 0 0 / 0.7), 0 1px 0 oklch(0.5 0.01 240 / 0.12), 0 1px 3px oklch(0.3 0.01 240 / 0.06); overflow: hidden; } .ds-field + .ds-field { border-left: 1px solid var(--rule); } .ds-field { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 16px 20px 18px; background: none; border: 0; text-align: left; color: var(--ink); cursor: pointer; transition: background-color 180ms, color 180ms; } .ds-field:hover { background: var(--plate-sunk); } .ds-field:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; } .ds-label { font: 600 11.5px/1.2 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-3); } .ds-value { font: 600 44px/0.95 var(--font-lab, \"Barlow Semi Condensed\", sans-serif); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; } .ds-note { font: 400 13px var(--font-ui, Barlow, sans-serif); color: var(--ink-3); } .ds-urgent .ds-value { color: var(--signal-ink); } .ds-field[aria-pressed=true] { background: var(--ink); color: var(--on-ink); } .ds-field[aria-pressed=true] .ds-label, .ds-field[aria-pressed=true] .ds-note { color: var(--on-ink); }"
+    },
+    {
+      "name": "Deadline Gauge",
+      "kind": "custom",
+      "refersTo": "deadline-gauge",
+      "description": "Return-by cell: text, date, and a bar whose length is days left on a 14-day scale; signal at two days or less.",
+      "html": "<div class=\"ds-due ds-due-urgent\"><span class=\"ds-due-text\">today</span><span class=\"ds-due-date\">Thu, Oct 22</span><span class=\"ds-gauge\"><span style=\"inline-size:7%\"></span></span></div><div class=\"ds-due\"><span class=\"ds-due-text\">in 9 days</span><span class=\"ds-due-date\">Sat, Oct 31</span><span class=\"ds-gauge\"><span style=\"inline-size:67%\"></span></span></div>",
+      "css": ".ds-due { display: grid; gap: 1px; width: 128px; margin-bottom: 12px; font: 400 14px var(--font-ui, Barlow, sans-serif); color: var(--ink); } .ds-due-text { font-weight: 600; } .ds-due-date { color: var(--ink-3); font-size: 12px; } .ds-gauge { display: block; height: 3px; margin-top: 5px; background: var(--rule); border-radius: 2px; overflow: hidden; max-width: 112px; } .ds-gauge span { display: block; height: 100%; background: var(--ink-2); border-radius: 2px; } .ds-due-urgent .ds-due-text { color: var(--signal-ink); } .ds-due-urgent .ds-gauge span { background: var(--signal); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Equipment Data Plate",
+    "overview": "\n**Creative North Star: \"The Equipment Data Plate\"**\n\nThe interface reads like a MIL-STD-130 identification plate at scale: a satin aluminium ground, etched near-black ink, hairline engraved rules, and small letterspaced caps naming each field above its value. Every surface is a plate; every datum is a labeled field. Codes (NSN, solicitation, FSC) are set in a measured mono so they read as stamped identifiers, not prose.\n\nDensity is high and operational. The page is a working instrument for triaging hundreds of RFQs, so hierarchy comes from scale contrast and weight, not from colour or chrome. Colour is almost absent: one cool grey family carries the whole interface, and a single safety orange-red appears only where a deadline is close.\n\nSelection does not add chrome; it inverts. A chosen field, segment, FSC row or active filter becomes an ink plate with aluminium text, the way a stamped plate reads. The world rejects the SaaS card dashboard: no purple accent, no pill soup, no floating cards.",
+    "keyCharacteristics": [
+      "Cool aluminium ground, never cream; ink is near-black blue-grey.",
+      "Labels are small letterspaced caps above their values.",
+      "Codes in Geist Mono with tabular, slashed-zero figures.",
+      "One signal colour, reserved for deadline urgency.",
+      "Selection is a full ink inversion, not a highlight or outline.",
+      "Near-square corners (2-3px) and hairline 1px rules throughout."
+    ],
+    "rules": [
+      {
+        "name": "The Deadline Glows Rule",
+        "body": "The signal colours (signal, signal-ink) mean \"this closes soon\" and nothing else. No brand accent, no links, no errors, no hover states in orange.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stamped Inversion Rule",
+        "body": "A selected state is an ink fill with aluminium text. Never a tinted background, coloured border or check-badge.",
+        "section": "colors"
+      },
+      {
+        "name": "The Label Over Value Rule",
+        "body": "Every datum is named by a small letterspaced caps label sitting directly above it. The label names the field; it is never a decorative kicker over a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Identifier Is Mono Rule",
+        "body": "Anything a user would copy into DIBBS (NSN, solicitation, FSC code) is set in Geist Mono; counts and quantities use tabular Barlow figures instead.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Float Rule",
+        "body": "Only the filter sheet leaves the plate. Everything else stays etched into the surface; no hover lift, no card shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every surface on the aluminium ground with plate faces and 1px engraved edges at 3px corners.",
+      "**Do** name each datum with an 11.5px semi-condensed uppercase label at 0.09em directly above its value.",
+      "**Do** show selection by inverting to ink with aluminium text, over 160-180ms on the standard ease (cubic-bezier(0.16, 1, 0.3, 1)).",
+      "**Do** set NSNs, solicitation numbers and FSC codes in Geist Mono with tabular, slashed-zero figures.",
+      "**Do** honour reduced motion: transitions and the shimmer switch off entirely."
+    ],
+    "donts": [
+      "**Don't** use the signal orange-red for anything but deadline urgency: not for links, errors, brand or hover.",
+      "**Don't** lift elements on hover or give containers floating shadows; only the filter sheet floats.",
+      "**Don't** use warm or cream neutrals; the ground stays cool grey.",
+      "**Don't** introduce pill-shaped buttons, chips or tags; corners stay at 2-3px.",
+      "**Don't** add a second accent hue or tinted selection backgrounds."
+    ]
+  }
+}
